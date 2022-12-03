@@ -1,0 +1,37 @@
+.common_btn {
+  flex: 0 0 auto;
+  a {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 38px;
+    line-height: 33px;
+    padding-left: 18.5px;
+    padding-right: 18.5px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    &.join {
+      background-color: #00704a;
+      border: 2px solid #00704a;
+    }
+    &.login {
+      background-color: transparent;
+      border: 2px solid #fff;
+    }
+    &.gift {
+      width: 183px;
+      text-align: center;
+      border: 2px solid #fff;
+    }
+    &.more {
+      border: 2px solid #fff;
+      &:hover {
+        background-color: #fff;
+        color: #d51e2e;
+      }
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+}

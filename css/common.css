@@ -1,0 +1,40 @@
+.common_btn {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.common_btn a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  height: 38px;
+  line-height: 33px;
+  padding-left: 18.5px;
+  padding-right: 18.5px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+}
+.common_btn a.join {
+  background-color: #00704a;
+  border: 2px solid #00704a;
+}
+.common_btn a.login {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.common_btn a.gift {
+  width: 183px;
+  text-align: center;
+  border: 2px solid #fff;
+}
+.common_btn a.more {
+  border: 2px solid #fff;
+}
+.common_btn a.more:hover {
+  background-color: #fff;
+  color: #d51e2e;
+}
+.common_btn a:hover {
+  color: #fff;
+}

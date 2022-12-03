@@ -23,7 +23,6 @@ for (let i = 0; i < maxSlide; i++) {
 }
 
 const paginationItems = document.querySelectorAll('.slide_pagination > li');
-console.log(paginationItems);
 
 // 버튼 엘리먼트에 클릭 이벤트 추가하기
 nextBtn.addEventListener('click', () => {

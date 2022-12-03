@@ -8,6 +8,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
     .header_box {
       width: 1100px;
       height: 120px;
@@ -237,6 +238,7 @@ header {
 }
 .section02 {
   .slider_bar {
+    position: relative;
     display: flex;
     align-items: center;
     .slider_notice {
@@ -272,7 +274,7 @@ header {
         position: relative;
         left: 0px;
         width: 100%;
-        height: 20px;
+        height: 62px;
         flex-shrink: 0;
         transition: left 0.15s;
       }
@@ -331,6 +333,123 @@ header {
     }
     .slider_acc {
       flex: 1;
+      background-color: #f6f5ef;
+      width: 100%;
+      height: 62px;
+      line-height: 62px;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .promotion_tit {
+          font-size: 16px;
+          color: #666;
+          font-weight: bold;
+          padding-right: 20px;
+        }
+        .promotion_more {
+          width: 36px;
+          height: 36px;
+          background: url('../assets/images/icon/icon_more.png') no-repeat;
+          background-size: 36px;
+        }
+      }
+    }
+    // 프로모션 드롭박스 start
+    .promotion_box {
+      position: absolute;
+      top: 62px;
+      left: 0;
+      width: 100%;
+      height: 660px;
+      background-color: #000;
+      display: none;
+      li {
+        img {
+          display: block;
+        }
+        a {
+          display: block;
+        }        
+      }
+    }
+    // 프로모션 드롭박스 end
+  }
+}
+.section03 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #1e3932;
+  .membership {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 23px;
+    max-width: 1080px;
+    margin: 0 auto;
+    .logo {
+      width: 176px;
+      margin-left: 40px;
+      margin-right: 40px;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+    .membership_box {
+      flex: 1;
+      .membership_txt {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 1px solid #4b615b;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        &.sub02 {
+          border-bottom: 0;
+          margin: 0;
+          padding: 0;
+        }
+        .membership_tit {
+          font-size: 26px;
+          color: #fff;
+          margin-bottom: 12px;
+          span {
+            font-weight: bold;
+          }
+        }
+        .membership_sub {
+          font-size: 14px;
+          color: #fff;
+          span {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+.section04 {
+  .blend {
+    width: 100%;
+    height: 573px;
+    background: url(../assets/images/bg/blend_bg.jpg) no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .blend_img {
+      img {
+        display: inline-block;
+      }
+    }
+    .blend_txt {
+      display: block;
+      img {
+        display: block;
+        margin-bottom: 40px;
+      }
     }
   }
 }
