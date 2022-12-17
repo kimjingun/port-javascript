@@ -453,3 +453,204 @@ header {
     }
   }
 }
+.section05 {
+  .reserve {
+    width: 100%;
+    height: 400px;
+    background: url(../assets/images/bg/reserve_bg.jpg) no-repeat center;
+    background-size: cover;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .reserve_box {
+      max-width: 1080px;
+      width: 100%;
+      .reserve_txt {
+        display: block;
+  
+        img {
+          display: block;
+          margin-bottom: 40px;
+        }
+        .more {
+          display: block;
+          width: 125px;
+          height: 38px;
+          color: #b9813d;
+          font-size: 15px;
+          line-height: 34px;
+          text-align: center;
+          border: 2px solid #b9813d;
+          border-radius: 5px;
+          box-sizing: border-box;
+          margin-left: 260px;
+          &:hover {
+            color: #fff;
+            background-color: #b9813d;
+          }
+        }
+      }
+    }
+  }
+}
+.section06 {
+  .season {
+    background: url(../assets/images/bg/season_bg.png) no-repeat #45434c;
+    // background-size: auto 87%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    object-fit: fill;
+    background-size: cover;
+    .season_txt {
+      text-align: right;
+      margin-right: 70px;
+      .txt_img01 {
+      }
+      .txt_img02 {
+        margin: 50px 0;
+      }
+      .more {
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+    .season_goods {
+      img {
+        display: inline-block;
+      }
+    }
+  }
+}
+.section07 {
+  height: 400px;
+  .magazine {
+    background: url(../assets/images/bg/magazine_bg.png) no-repeat 50% 100%;
+    height: 100%;
+    .magazine_box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      .magazine_txt {
+        margin-right: 50px;
+        .more {
+          display: block;
+          margin: 0 auto;
+          width: 125px;
+          height: 100%;
+          color: #000;
+          font-size: 15px;
+          line-height: 34px;
+          text-align: center;
+          border: 2px solid #000;
+          border-radius: 5px;
+          box-sizing: border-box;
+          margin-top: 30px;
+          // transition: background-color .7s, color .7s, border-color .7s;
+          // -webkit-transition: background-color .7s, color .7s, border-color .7s;
+          &:hover {
+            background: #000;
+            color: #fff;
+          }
+        }
+      }
+      .magazine_coffee {
+        width: 348px;
+      }
+      img {
+        display: inline-block;
+      }
+    }
+  }
+}
+.section08 {
+  .store {
+    background: url(../assets/images/bg/store_bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    .store_box {
+      display: flex;
+      align-items: center;
+      width: 1280px;
+      height: 100%;
+      margin: 0 auto;
+      position: relative;
+      .store_img {
+        flex: 0 0 670px;
+        .store_sub01 {
+          position: absolute;
+          top: -60px;
+          left: 520px;
+          width: 343px;
+          height: 142px;
+          background: url(../assets/images/product/store_sub01.png) no-repeat;
+        }
+        .store_sub02 {
+          position: absolute;
+          top: 298px;
+          right: 30px;
+          width: 230px;
+          height: 102px;
+          background: url(../assets/images/product/store_sub02.png) no-repeat;
+        }
+        .store_sub03 {
+          position: absolute;
+          top: 149px;
+          left: 390px;
+          width: 228px;
+          height: 228px;
+          background: url(../assets/images/product/store_sub03.png) no-repeat;
+        }
+        .store_sub04 {
+          position: absolute;
+          top: 0;
+          left: 160px;
+          width: 366px;
+          height: 312px;
+          background: url(../assets/images/product/store_sub04.png) no-repeat;
+        }
+      }
+      .store_txt {
+        flex: 0 0 600px;
+        .store_font01 {
+          width: 385px;
+          height: 54px;
+          background: url(../assets/images/product/store_txt01.png) no-repeat;
+        }
+        .store_font02 {
+          width: 366px;
+          height: 61px;
+          background: url(../assets/images/product/store_txt02.png) no-repeat;
+          margin-top: 15px;
+        }
+        .more {
+          display: block;
+          width: 125px;
+          height: 100%;
+          color: #000;
+          font-size: 15px;
+          line-height: 34px;
+          text-align: center;
+          border: 2px solid #000;
+          border-radius: 5px;
+          box-sizing: border-box;
+          margin-top: 30px;
+
+          // transition: background-color .7s, color .7s, border-color .7s;
+          // -webkit-transition: background-color .7s, color .7s, border-color .7s;
+          &:hover {
+            background: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

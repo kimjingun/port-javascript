@@ -518,3 +518,219 @@ header .header_wrap .header_box .header_menu .header_bar ul li .hover_menu .hove
   display: block;
   margin-bottom: 40px;
 }
+
+.section05 .reserve {
+  width: 100%;
+  height: 400px;
+  background: url(../assets/images/bg/reserve_bg.jpg) no-repeat center;
+  background-size: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section05 .reserve .reserve_box {
+  max-width: 1080px;
+  width: 100%;
+}
+.section05 .reserve .reserve_box .reserve_txt {
+  display: block;
+}
+.section05 .reserve .reserve_box .reserve_txt img {
+  display: block;
+  margin-bottom: 40px;
+}
+.section05 .reserve .reserve_box .reserve_txt .more {
+  display: block;
+  width: 125px;
+  height: 38px;
+  color: #b9813d;
+  font-size: 15px;
+  line-height: 34px;
+  text-align: center;
+  border: 2px solid #b9813d;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 260px;
+}
+.section05 .reserve .reserve_box .reserve_txt .more:hover {
+  color: #fff;
+  background-color: #b9813d;
+}
+
+.section06 .season {
+  background: url(../assets/images/bg/season_bg.png) no-repeat #45434c;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-attachment: fixed;
+  -o-object-fit: fill;
+     object-fit: fill;
+  background-size: cover;
+}
+.section06 .season .season_txt {
+  text-align: right;
+  margin-right: 70px;
+}
+.section06 .season .season_txt .txt_img02 {
+  margin: 50px 0;
+}
+.section06 .season .season_txt .more:hover {
+  color: #000;
+}
+.section06 .season .season_goods img {
+  display: inline-block;
+}
+
+.section07 {
+  height: 400px;
+}
+.section07 .magazine {
+  background: url(../assets/images/bg/magazine_bg.png) no-repeat 50% 100%;
+  height: 100%;
+}
+.section07 .magazine .magazine_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.section07 .magazine .magazine_box .magazine_txt {
+  margin-right: 50px;
+}
+.section07 .magazine .magazine_box .magazine_txt .more {
+  display: block;
+  margin: 0 auto;
+  width: 125px;
+  height: 100%;
+  color: #000;
+  font-size: 15px;
+  line-height: 34px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 30px;
+}
+.section07 .magazine .magazine_box .magazine_txt .more:hover {
+  background: #000;
+  color: #fff;
+}
+.section07 .magazine .magazine_box .magazine_coffee {
+  width: 348px;
+}
+.section07 .magazine .magazine_box img {
+  display: inline-block;
+}
+
+.section08 .store {
+  background: url(../assets/images/bg/store_bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 400px;
+  overflow: hidden;
+}
+.section08 .store .store_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.section08 .store .store_box .store_img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 670px;
+          flex: 0 0 670px;
+}
+.section08 .store .store_box .store_img .store_sub01 {
+  position: absolute;
+  top: -60px;
+  left: 520px;
+  width: 343px;
+  height: 142px;
+  background: url(../assets/images/product/store_sub01.png) no-repeat;
+}
+.section08 .store .store_box .store_img .store_sub02 {
+  position: absolute;
+  top: 298px;
+  right: 30px;
+  width: 230px;
+  height: 102px;
+  background: url(../assets/images/product/store_sub02.png) no-repeat;
+}
+.section08 .store .store_box .store_img .store_sub03 {
+  position: absolute;
+  top: 149px;
+  left: 390px;
+  width: 228px;
+  height: 228px;
+  background: url(../assets/images/product/store_sub03.png) no-repeat;
+}
+.section08 .store .store_box .store_img .store_sub04 {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  width: 366px;
+  height: 312px;
+  background: url(../assets/images/product/store_sub04.png) no-repeat;
+}
+.section08 .store .store_box .store_txt {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 600px;
+          flex: 0 0 600px;
+}
+.section08 .store .store_box .store_txt .store_font01 {
+  width: 385px;
+  height: 54px;
+  background: url(../assets/images/product/store_txt01.png) no-repeat;
+}
+.section08 .store .store_box .store_txt .store_font02 {
+  width: 366px;
+  height: 61px;
+  background: url(../assets/images/product/store_txt02.png) no-repeat;
+  margin-top: 15px;
+}
+.section08 .store .store_box .store_txt .more {
+  display: block;
+  width: 125px;
+  height: 100%;
+  color: #000;
+  font-size: 15px;
+  line-height: 34px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 30px;
+}
+.section08 .store .store_box .store_txt .more:hover {
+  background: #000;
+  color: #fff;
+}
