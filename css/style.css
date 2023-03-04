@@ -32,6 +32,9 @@ header .header_wrap .header_box .header_logo a {
   height: 100%;
   background: url(../assets/images/logo/logo.png) no-repeat;
 }
+header .header_wrap .header_box .header_menu {
+  margin-top: 10px;
+}
 header .header_wrap .header_box .header_menu .header_form {
   font-size: 13px;
   color: #555;
@@ -43,9 +46,11 @@ header .header_wrap .header_box .header_menu .header_form ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 100px;
+  margin-bottom: 10px;
 }
 header .header_wrap .header_box .header_menu .header_form ul li {
   position: relative;
@@ -55,11 +60,17 @@ header .header_wrap .header_box .header_menu .header_form ul li {
 header .header_wrap .header_box .header_menu .header_form ul li::after {
   content: "";
   position: absolute;
-  top: 3px;
+  top: 2px;
   right: 0;
   width: 1px;
   height: 12px;
-  background: #000;
+  background: #e5e5e5;
+}
+header .header_wrap .header_box .header_menu .header_form ul li:nth-child(4) {
+  margin-right: 0;
+}
+header .header_wrap .header_box .header_menu .header_form ul li:nth-child(4)::after {
+  display: none;
 }
 header .header_wrap .header_box .header_menu .header_form ul li:last-child {
   padding-right: 0;
@@ -76,13 +87,14 @@ header .header_wrap .header_box .header_menu .header_form ul li.search_btn a {
   display: block;
   border-radius: 5px;
   text-align: center;
-  padding: 6px 10px;
+  padding: 5px 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 header .header_wrap .header_box .header_menu .header_form ul li.search_btn a img {
   display: inline-block;
 }
 header .header_wrap .header_box .header_menu .header_bar {
-  margin-top: 20px;
   font-size: 13px;
   color: #333;
 }
@@ -283,8 +295,7 @@ header .header_wrap .header_box .header_menu .header_bar ul li .hover_menu .hove
   height: 62px;
 }
 .section02 .slider_bar .slider_notice_tit {
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -426,12 +437,31 @@ header .header_wrap .header_box .header_menu .header_bar ul li .hover_menu .hove
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
+}
+.section04 .blend .blend_img {
+  -webkit-transform: translateX(-500%);
+          transform: translateX(-500%);
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+.section04 .blend .blend_img.on {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 .section04 .blend .blend_img img {
   display: inline-block;
 }
 .section04 .blend .blend_txt {
   display: block;
+  -webkit-transform: translateX(500%);
+          transform: translateX(500%);
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+.section04 .blend .blend_txt.on {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 .section04 .blend .blend_txt img {
   display: block;
@@ -505,6 +535,14 @@ header .header_wrap .header_box .header_menu .header_bar ul li .hover_menu .hove
 .section06 .season .season_txt {
   text-align: right;
   margin-right: 70px;
+  -webkit-transform: translateX(-500%);
+          transform: translateX(-500%);
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+.section06 .season .season_txt.on {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 .section06 .season .season_txt .txt_img02 {
   margin: 50px 0;
@@ -623,6 +661,14 @@ header .header_wrap .header_box .header_menu .header_bar ul li .hover_menu .hove
   -webkit-box-flex: 0;
       -ms-flex: 0 0 600px;
           flex: 0 0 600px;
+  -webkit-transform: translateX(500%);
+          transform: translateX(500%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.section08 .store .store_box .store_txt.on {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 .section08 .store .store_box .store_txt .store_font01 {
   width: 385px;
@@ -686,6 +732,8 @@ header .header_wrap .header_box .header_menu .header_bar ul li .hover_menu .hove
 }
 .footer .menu ul li ul li.tit {
   margin-bottom: 20px;
+}
+.footer .menu ul li ul li.tit a {
   font-size: 14px;
 }
 .footer .menu ul li ul li a {
@@ -747,7 +795,7 @@ header .header_wrap .header_box .header_menu .header_bar ul li .hover_menu .hove
 .footer .clause .information {
   width: 100%;
   text-align: center;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .footer .clause .information a {
   font-size: 12px;

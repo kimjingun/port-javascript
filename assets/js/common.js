@@ -40,3 +40,22 @@ $(document).ready(function () {
     },
   });
 });
+
+$(window).scroll(function () {
+  var ani = $('.blend_img').offset();
+  if ($(window).scrollTop() > ani.top) {
+    $('.blend_img').removeClass('on');
+    $('.blend_txt').removeClass('on');
+  } else {
+    $('.blend_img').addClass('on');
+    $('.blend_txt').addClass('on');
+  }
+  if ($(window).scrollTop() > 700) {
+    $('.season_txt').addClass('on');
+  }
+  if ($(window).scrollTop() > 2000) {
+    $('.store_txt').addClass('on');
+  } else {
+    $('.store_txt').removeClass('on');
+  }
+});
