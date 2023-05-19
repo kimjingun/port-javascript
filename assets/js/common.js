@@ -1,4 +1,11 @@
 $(document).ready(function () {
+  $('.header_menu_ham .ham_btn').click(function () {
+    $('.header_menu_ham').addClass('active');
+  });
+  $('.header_menu_ham .ham_close').click(function () {
+    $('.header_menu_ham').removeClass('active');
+  });
+
   const swiper = new Swiper('.swiper-container', {
     //기본 셋팅
     //방향 셋팅 vertical 수직, horizontal 수평 설정이 없으면 수평
