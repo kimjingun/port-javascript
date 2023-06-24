@@ -46,6 +46,9 @@ $(document).ready(function () {
       prevEl: '.swiper-button-prev',
     },
   });
+  var head = $('#header').load('./include/header.html');
+  console.log(head);
+  // $('#footer').load('/footer.html');
 });
 
 $(window).scroll(function () {
