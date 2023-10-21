@@ -35,6 +35,15 @@
   background-color: #fff;
   color: #d51e2e;
 }
+.common_btn a.green {
+  background: transparent;
+  border: 2px solid #155c34;
+  color: #155c34;
+}
+.common_btn a.green:hover {
+  color: #fff;
+  background: #155c34;
+}
 .common_btn a:hover {
   color: #fff;
 }

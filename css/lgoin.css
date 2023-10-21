@@ -3,7 +3,9 @@
   background-size: cover;
   -webkit-background-size: cover;
   width: 100%;
-  margin-top: 120px;
+  height: 700px;
+  margin-top: 40px;
+  padding-top: 260px;
 }
 .login .login_tit {
   color: #fff;
@@ -31,8 +33,9 @@
 }
 .login .login_form .login_contents {
   background: #fff;
-  padding: 20px 20px;
+  padding: 20px 20px 0;
   position: relative;
+  border-radius: 3px;
 }
 .login .login_form .login_contents > label {
   position: absolute;
@@ -66,4 +69,55 @@
   font-size: 24px;
   display: block;
   line-height: 65px;
+}
+.login .login_form .login_contents ul.notice {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 15px;
+  color: #006633;
+}
+.login .login_form .login_contents ul.notice li {
+  text-indent: -10px;
+  margin-left: 10px;
+}
+.login .login_form .login_contents ul.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.login .login_form .login_contents ul.info li {
+  position: relative;
+  margin-right: 10px;
+  padding-right: 10px;
+  color: #666;
+  display: block;
+  font-size: 16px;
+  height: 100%;
+  line-height: 54px;
+  width: 100%;
+  text-align: center;
+}
+.login .login_form .login_contents ul.info li a {
+  display: block;
+}
+.login .login_form .login_contents ul.info li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+.login .login_form .login_contents ul.info li:last-child::after {
+  display: none;
+}
+.login .login_form .login_contents ul.info li::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 1px;
+  height: 16px;
+  background: #666;
 }

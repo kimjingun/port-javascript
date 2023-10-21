@@ -30,6 +30,15 @@
         color: #d51e2e;
       }
     }
+    &.green {
+      background: transparent;
+      border: 2px solid #155c34;
+      color: #155c34;
+      &:hover {
+        color: #fff;
+        background: #155c34;
+      }
+    }
     &:hover {
       color: #fff;
     }
